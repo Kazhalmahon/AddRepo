@@ -1,0 +1,70 @@
+wget -q -O nibiru.sh https://api.nodes.guru/nibiru.sh && chmod +x nibiru.sh && sudo /bin/bash nibiru.sh
+
+#Enter node name: Anonymous
+
+#Your nibiru node installed and works!
+==============================================================================================================
+service nibid status
+
+#Actice (running)
+
+#Ctrl + Z
+==============================================================================================================
+nibid keys add wallet
+
+#Enter keyring passphrase: Anony8520
+
+#Az name ta akhar Copy bardar!
+
+- name: wallet
+  type: local
+  address: ...
+  pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"..."}'
+  mnemonic: ""
+
+
+**Important** write this mnemonic phrase in a safe place.
+It is the only way to recover your account if you ever forget your password.
+
+Seed Phrese
+==============================================================================================================
+journalctl -u nibid -f
+==============================================================================================================
+curl -s localhost:26657/status
+==============================================================================================================
+curl -s localhost:26657/status | jq .result.sync_info.catching_up
+
+#false
+==============================================================================================================
+#Go to Nibiru Discord
+
+https://Discord.com/
+
+zwed8123@gmail.com
+Mms$76061
+
+#faucet
+
+$request ...
+==============================================================================================================
+nibid tx staking create-validator \
+--amount=1000000unibi \
+--pubkey=$(nibid tendermint show-validator) \
+--moniker="Anonymous" \
+--chain-id=nibiru-testnet-1 \
+--commission-rate="0.1" \
+--commission-max-rate="0.10" \
+--commission-max-change-rate="0.01" \
+--min-self-delegation="1000000" \
+--fees=10000unibi \
+--from=wallet \
+-y
+==============================================================================================================
+nibid keys show wallet --bech val -a
+
+#1 address mide! address ro copy kon o bezar jaye **************** code akhar!
+
+...
+==============================================================================================================
+nibid tx staking delegate ... 10000000unibi --from wallet --chain-id nibiru-testnet-1 --fees 5000unibi
+==============================================================================================================
