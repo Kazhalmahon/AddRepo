@@ -14,8 +14,6 @@ nibid keys add wallet
 
 #Enter keyring passphrase: Anony8520
 
-#Az name ta akhar Copy bardar!
-
 - name: wallet
   type: local
   address: ...
