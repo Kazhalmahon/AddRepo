@@ -20,7 +20,7 @@ nibid keys add wallet
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"..."}'
   mnemonic: ""
 
-
+#ctrl + P
 **Important** write this mnemonic phrase in a safe place.
 It is the only way to recover your account if you ever forget your password.
 
