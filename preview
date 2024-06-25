@@ -10,7 +10,7 @@ nibid keys add wallet
 #Enter keyring passphrase: Anony8520!
 
 - name: wallet
-  type: local
+  type: Main
   address: ...
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"..."}'
   mnemonic: ""
