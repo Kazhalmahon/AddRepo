@@ -57,7 +57,7 @@ nibid keys show wallet --bech val -a
 #1 address mide! address ro copy kon o bezar jaye **************** code akhar!
 
 ...
-#Copy + V
+#Copy + x
 
 ==============================================================================================================
 nibid tx staking delegate ... 10000000unibi --from wallet --chain-id nibiru-testnet-1 --fees 5000unibi
