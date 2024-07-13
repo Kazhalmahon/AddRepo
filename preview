@@ -31,13 +31,6 @@ curl -s localhost:26657/status | jq .result.sync_info.catching_up
 ==============================================================================================================
 #Go to Nibiru Discord
 
-https://Discord.com/
-
-zwed8123@gmail.com
-Mms$76061
-
-
-
 $request ...
 ==============================================================================================================
 nibid tx staking create-validator \
