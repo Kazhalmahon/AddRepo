@@ -62,3 +62,5 @@ nibid tx staking delegate ... 10000000unibi --from wallet --chain-id nibiru-test
 #2 address mide! address ro save kon o bezar jaye **************** code akhar!
 
 nibid keys add wallet
+
+#Enter node name: Meine Liebe
