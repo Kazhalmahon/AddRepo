@@ -12,7 +12,7 @@ nibid keys add wallet
 - type: Main
 - address: ...
 - pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"..."}'
-- mnemonic: "p"
+- mnemonic: "v"
 
 
 
