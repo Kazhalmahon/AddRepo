@@ -8,7 +8,7 @@ nibid keys add wallet
 
 #Enter keyring passphrase: password
 
-- name: wallet
+- name: mine
 - type
 - address: ...
 - pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"..."}'
