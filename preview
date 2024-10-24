@@ -1,6 +1,6 @@
 wget -q -O nibiru.sh https://api.nodes.guru/nibiru.sh && chmod +x nibiru.sh && sudo /bin/bash nibiru.sh 
 
-#Enter node name: Mysterious
+#Enter node name: Mysterious 
 
 #Your nibiru node installed and works
 ==============================================================================================================
